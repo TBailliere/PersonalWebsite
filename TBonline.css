@@ -1,0 +1,403 @@
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #4C5C68;
+}
+
+label {
+    color: silver;
+}
+
+legend {
+    color: #1985A1;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Serif', sans-serif;
+    ;
+}
+
+p {
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.contact-h1 {
+    color: silver;
+    text-align: center;
+}
+
+.submit {
+    color: silver;
+    background-color: #1985A1;
+    float: left;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+
+.page-header {
+    width: 1440px;
+    height: 64px;
+    background-color: gainsboro;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.page-header li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px;
+
+}
+
+.page-header a {
+    color: #46494C;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Roboto', serif;
+}
+
+.page-header a:hover {
+    font-size: 22px;
+}
+
+.page-header ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.intro {
+    width: 1440px;
+    height: 700px;
+    background-color: #4C5C68;
+    color: silver;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-block;
+    justify-content: center;
+    vertical-align: middle;
+
+}
+
+.intro h1,
+h2 {
+    margin: 0px;
+    padding-top: 170px;
+    float: left;
+    margin-left: 130px;
+}
+
+
+.intro p {
+    padding-right: 900px;
+    padding-top: 230px;
+    margin-left: 130px;
+    padding-bottom: 45px;
+}
+
+.intro img {
+    float: right;
+    width: 670px;
+    height: 450px;
+    vertical-align: middle;
+    margin-top: -355px;
+    margin-bottom: 100px;
+    margin-right: 130px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-github a {
+    background-color: #1985A1;
+    color: #46494C;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 130px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px silver;
+    width: 100px;
+}
+
+.btn-github a:hover {
+    font-size: 22px;
+}
+
+.qoute {
+    width: 1440px;
+    height: 400px;
+    background-color: #4C5C68;
+    color: silver;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+}
+
+blockquote::before {
+    content: "“";
+}
+
+blockquote {
+    margin-top: 135px;
+    margin-bottom: 35px;
+    padding: 0px;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+blockquote::after {
+    content: "”";
+}
+
+.p-author {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: #1985A1;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-right: 700px;
+    margin-left: 700px;
+
+}
+
+.about {
+    width: 1440px;
+    height: 700px;
+    background-color: #4C5C68;
+    margin-top: 0;
+    text-align: center;
+    display: table;
+    margin-top: -150px;
+}
+
+.about h2 {
+    color: silver;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 523px;
+    margin-bottom: 30px;
+}
+
+.about p {
+    color: silver;
+    padding: 0px;
+    margin-top: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+    float: left;
+}
+
+.btn-TM a {
+    background-color: #1985A1;
+    color: #46494C;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-left: 612px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px silver;
+}
+
+.btn-TM a:hover {
+    font-size: 22px;
+}
+
+.dot2 {
+    height: 40px;
+    width: 40px;
+    background-color: #1985A1;
+    border-radius: 50%;
+    float: left;
+    padding: 0px;
+    margin-right: 700px;
+    margin-left: 700px;
+}
+
+.socials {
+    width: 1440px;
+    height: 300px;
+    background-color: #4C5C68
+}
+
+.socials h2 {
+    color: silver;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-left: 130px;
+    margin-top: 140px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-mail a {
+    background-color: #1985A1;
+    color: #46494C;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 125px;
+    margin-left: 600px;
+    margin-right: 130px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px silver;
+    display: inline-block;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.btn-mail a:hover {
+    font-size: 22px;
+}
+
+.btn-linkedin a {
+    background-color: #1985A1;
+    color: #46494C;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 125px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px silver;
+    display: inline-block;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.btn-linkedin a:hover {
+    font-size: 22px;
+}
+
+.page-footer {
+    width: 1440px;
+    height: 64px;
+    background-color: gainsboro;
+    margin: 0px;
+    text-align: center;
+    padding: 0%;
+}
+
+.page-footer p {
+    display: inline-block;
+    vertical-align: center;
+    text-align: center;
+    color: #46494C;
+}
+
+.footer-contact {
+    width: 1440px;
+    height: 64px;
+    background-color: gainsboro;
+    margin: 0px;
+    text-align: center;
+    padding: 0%;
+    bottom: 0px;
+    position: fixed;
+}
+
+
+.intro-projects {
+    width: 1440px;
+    height: 700px;
+    background-color: #4C5C68;
+    color: silver;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-block;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.intro-projects h1,
+h2 {
+    margin: 0px;
+    padding-top: 170px;
+    float: left;
+    margin-left: 130px;
+    font-size: 30px;
+}
+
+.intro-projects p {
+    padding-right: 900px;
+    padding-top: 230px;
+    margin-left: 130px;
+    padding-bottom: 45px;
+}
+
+.intro-projects img {
+    float: right;
+    width: 670px;
+    height: 450px;
+    vertical-align: middle;
+    margin-top: -310px;
+    margin-bottom: 100px;
+    margin-right: 130px;
+    border: none;
+    border-radius: 15px;
+}
+
+.project-description {
+    width: 1440px;
+    height: 400px;
+    background-color: #4C5C68;
+    color: silver;
+    margin: 0px;
+}
+
+.project-description h2 {
+    text-align: center;
+}

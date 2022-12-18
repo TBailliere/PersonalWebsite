@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Styles/TBonline.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,300;1,8..144,300&family=Roboto:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <form action="post-demo.php" method="post">
+        <title>TB Contact Form</title>
+
+</head>
+
+<body>
+    <header class="page-header">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./CVNew.pdf">CV</a></li>
+                <li><a href="./TBProject.html">Projects</a></li>
+                <li><a href="./TBFieldExploration.html">Field Exploration</a></li>
+                <li><a href="./TBcontact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="post-demo.php" method="post">
+            <h1 class="contact-h1">Contact Form</h1>
+            <form action="post-demo.php" method="post">
+                <fieldset>
+                    <legend>Contact Details:</legend>
+                    <label for="firstName">First name</label>
+                    <input type="text" name="First name" id="firstName" /><br />
+                    <label for="lastName">Last name</label>
+                    <input type="text" name="Last name" id="lastName" /><br />
+                    <label for="email">E-mail</label>
+                    <input type="email" name="E-mail" id="email" />
+                </fieldset>
+                <fieldset>
+                    <legend>Inquiry:</legend>
+                    <label for="questionType">Type:</label>
+                    <select name="Type" id="questionType">
+                        <option value="General">General</option>
+                        <option value="Collaboration">Collaboration</option>
+                        <option value="Price Inquiry">Price Inquiry</option>
+                    </select><br />
+                    <label for="question">Question:</label>
+                    <textarea name="Question:" id="question" cols="30" rows="10"></textarea>
+                </fieldset>
+                <label for="newsletter">Subscribe to newsletter:</label>
+                <input type="checkbox" name="newsletter" id="newsletter" value="ja" /><br />
+                <input type="submit" value="Submit" class="submit" />
+            </form>
+    </main>
+    <footer class="footer-contact">
+        <p>Made by Thomas Baillière</p>
+    </footer>
+</body>
+
+</html>
